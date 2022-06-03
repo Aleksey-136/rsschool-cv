@@ -1,1 +1,107 @@
-<!-- Тут будет разметка для CV -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Это набросок моего будущего резюме">
+    <meta name="keywords" content="HTML, CSS, резюме">
+    <link rel="stylesheet" href="style.css">
+    <title>Визитка | Алексей Михайлов</title>
+</head>
+<body>
+    <div class="container">
+
+<!-- Аватарка ФИО и короткое описание -->
+<div class="intro">
+    <img src="ava.jpg" alt="Аватар" width="250"> 
+        <div class="text1">
+            <h1>Алексей Михайлов</h1>
+                <p>Начинающий IT разработчик. Интересуюсь <strong>front-end</strong> 
+                с перспективой перехода на <strong>full-stack</strong>. 
+                Имею опыт работы с CMS <em><strong>Joomla, Wordpress, 
+                B2evolution</strong></em>.
+        </div> 
+</div>
+
+<div class="card desc">
+    <p>       На протяжении нескольких лет вел свой сайт развлекательной тематики.<br>В настоящий момент, помимо основной работы, занимаюсь развитием своего Youtube канала, включая съемку, монтаж и продвижение.</p>
+    <p>Из жизненных интересов пожалуй на первом месте путешествия, выезды на природу и особенно лодочные сплавы и возможность на все это заработать. Обожаю активный отдых, велосипед, пляжный волейбол, горные лыжи, хоккей.</p>
+</div>
+
+<h2>Мои интересы</h2>
+    <div class="card int1">
+        <ul>
+            <li>Путешествия</li>
+            <li>Активный отдых</li>
+            <li>YouTube канал</li>
+            <li>PikeFishing</li>
+        </ul>
+    </div>
+
+<!-- Таблица с опытом работы -->
+<h2>Опыт работы</h2>
+<div class="card table1">
+<table>
+    <thead>
+        <tr>
+            <th>Название</th>
+            <th>Должность</th>
+            <th>Год</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ЭиС</td>
+            <td>Менеджер по продажам</td>
+            <td>2008-2010</td>
+        </tr>
+        <tr>
+            <td>ЭиС</td>
+            <td>Руководитель отдела продаж</td>
+            <td>2010-2015</td>
+        </tr>
+        <tr>
+            <td>Объект</td>
+            <td>Зам. дир. по коммерции</td>
+            <td>2018-2022</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+<!-- Форма обратной связи -->
+
+<form action="/" class="form">
+    <h2>Связаться со мной</h2>
+    <div class="card fb">
+        <div class="input-row">
+            <div class="form-group">
+                <label for="inputName">Ваше имя:</label>
+                <input type="text" placeholder="Введите имя" id="inputName">
+            </div>
+            <div  class="form-group">
+                <label for="email">Ваш e-mail:</label>
+                <input type="email" placeholder="Введите e-mail" id="email">
+            </div>
+        </div>
+        
+        <div  class="form-group">
+            <label for="MessageText">Ваше сообщение:</label>
+            <textarea id="MessageText" rows="5" placeholder="Введите сообщение.."></textarea>
+        </div>
+        <div>
+            <button class="btn" type="submit">Отправить</button>
+        </div>
+    </div>
+</form>
+
+<!-- Ссылки на соцсети -->
+<div class="card sn"> 
+    <a href="https://vk.com/mr_a.mikhailov" class="lnk" target="_blank">VK</a> || 
+    <a href="https://instagram.com/_lifespin_" class="lnk" target="_blank">Instagramm</a> || 
+    <a href="https://www.youtube.com/c/lifespin" class="lnk" target="_blank">YouTube</a>
+</div>
+    </div>
+</body>
+</html>
