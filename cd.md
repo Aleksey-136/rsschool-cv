@@ -28,5 +28,5 @@ console.log(motto);
 * HTML+CSS Vladilen Minin's course
 ***
 # Language
-Russian - Native
-English - Studying
+* Russian - Native
+* English - Studying
