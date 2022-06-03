@@ -15,3 +15,18 @@ I take an active life position. I like to learn something new.
 * CSS 3
 * Adobe Photoshop, Premiere Pro
 ***
+# Code example
+```
+// BEGIN 
+let greeting = 'Starting to study';
+console.log(motto);
+// END
+```
+***
+# Education
+* Voronezh State Technical University
+* HTML+CSS Vladilen Minin's course
+***
+# Language
+Russian - Native
+English - Studying
