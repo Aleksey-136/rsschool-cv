@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital,wght@0,400;1,100&family=Roboto&display=swap');
+
+/* Стили текста общие */
+body { 
+    font-family: raleway, Verdana;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #111111;
+    background-color: rgb(237, 238, 238);
+}
+
+/* Стиль контейнера и заголовок */
+.container {
+    max-width: 600px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 22px;
+    text-decoration: underline;
+    text-shadow: 1px 1px rgb(180, 191, 194); 
+    text-align: center;
+}
+
 
 /* Аватар и первая часть текста */
 .intro {
