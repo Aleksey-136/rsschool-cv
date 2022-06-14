@@ -58,12 +58,22 @@ h2 {
     background-color: #fff;
     border: 1px dotted rgb(191, 202, 206);
     border-radius: 5px;
+    border-end-end-radius: 15px;
 }
 
 
-/* Описание */
-.desc {
-    border-end-end-radius: 15px;
+/*Стиль текста "обо мне" */
+.text2 {
+    padding: 0px 25px 0px 20px;
+}
+
+
+/* Стиль кода*/
+.jscode {
+    margin-top: -15px;
+    margin-left: -85px;
+    position: absolute;
+    color: rgb(100, 100, 100);
 }
 
 
