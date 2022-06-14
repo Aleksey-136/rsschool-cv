@@ -29,4 +29,4 @@ console.log(motto);
 ****
 # Language
 * Russian - Native
-* English - Studying
+* English - Pre-intermediate
