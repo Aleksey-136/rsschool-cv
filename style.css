@@ -59,11 +59,7 @@ h2 {
     border: 1px dotted rgb(191, 202, 206);
     border-radius: 5px;
 }
-.main .p {
-    color: aqua;
-    text-decoration: double;
 
-}
 
 /* Описание */
 .desc {
@@ -83,4 +79,27 @@ h2 {
 }
 .table1 tr:first-child {
     text-align: left;
+}
+
+
+/* Футер */
+.footer {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px dotted rgb(191, 202, 206);
+    border-radius: 5px;
+}
+.footer p{
+    text-align: center;
+}
+.footer a:hover {
+    color: rgb(5, 106, 173);
+    text-decoration:underline;
+}
+.footer a:active {
+    color: rgb(134, 186, 221);
+}
+.footer a:visited {
+    color: rgb(145, 193, 224);
 }
