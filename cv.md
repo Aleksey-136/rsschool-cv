@@ -1,4 +1,4 @@
-## Aleksey Mikhailov
+# Aleksey Mikhailov
 # RSSchool Student
 ****
 # Contacts
