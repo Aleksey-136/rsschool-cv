@@ -29,4 +29,4 @@ console.log(greeting);
 ****
 # Language
 * Russian - Native
-* English - Pre-intermediate
+* English - (A2) Pre-intermediate
