@@ -25,7 +25,7 @@ console.log(greeting);
 ****
 # Education
 * Voronezh State Technical University
-* HTML+CSS Vladilen Minin's course
+* HTML+CSS - Vladilen Minin's course
 ****
 # Language
 * Russian - Native
