@@ -102,6 +102,7 @@ h2 {
 }
 .footer p{
     text-align: center;
+    font-size: 35px;
 }
 .footer a:hover {
     color: rgb(5, 106, 173);
