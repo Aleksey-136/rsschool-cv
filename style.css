@@ -1,3 +1,115 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital,wght@0,400;1,100&family=Roboto&display=swap');
 
 /* Стили текста общие */
+body { 
+    font-family: raleway, Verdana;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #111111;
+    background-color: rgb(237, 238, 238);
+}
+
+
+/* Стиль контейнера и заголовок */
+.container {
+    max-width: 600px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 22px;
+    text-decoration: underline;
+    text-shadow: 1px 1px rgb(180, 191, 194); 
+    text-align: left;
+}
+
+
+/* Аватар и первая часть текста */
+.header {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px dotted rgb(191, 202, 206);
+    border-color: rgb(191, 202, 206);
+    display: flex;
+    border-end-end-radius: 15px;
+    margin-bottom: 10px;
+}
+.header img {
+    width: 40%;
+    height: 40%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.header h1{
+    font-size: 26px;
+    margin-top: 0;
+    line-height: normal;
+    text-shadow: 2px 1px rgb(180, 191, 194); 
+    text-align: left;
+}
+.header .text1 {
+    padding-left: 20px;   
+}
+
+
+/* Общий стиль блоков */
+.main {
+    padding: 5px;
+    background-color: #fff;
+    border: 1px dotted rgb(191, 202, 206);
+    border-radius: 5px;
+    border-end-end-radius: 15px;
+}
+
+
+/*Стиль текста "обо мне" */
+.text2 {
+    padding: 0px 25px 0px 20px;
+}
+
+
+/* Стиль кода*/
+.jscode {
+    margin-top: -15px;
+    margin-left: -85px;
+    position: absolute;
+    color: rgb(100, 100, 100);
+}
+
+
+
+/* Опыт работы */
+.table1 {
+    font-size: 15px;
+    border-end-end-radius: 15px;
+    padding: 10px 10px;
+}
+.table1 table {
+    width: 100%;
+}
+.table1 tr:first-child {
+    text-align: left;
+}
+
+
+/* Футер */
+.footer {
+    padding: 5px;
+    margin-top: 10px;
+    background-color: #fff;
+    border: 1px dotted rgb(191, 202, 206);
+    border-radius: 5px;
+}
+.footer p{
+    text-align: center;
+}
+.footer a:hover {
+    color: rgb(5, 106, 173);
+    text-decoration:underline;
+}
+.footer a:active {
+    color: rgb(134, 186, 221);
+}
+.footer a:visited {
+    color: rgb(145, 193, 224);
+}
