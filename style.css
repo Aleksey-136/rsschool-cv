@@ -83,18 +83,25 @@ h2 {
 
 
 /* Опыт работы */
-.table {
+
+.table1 {
+
     width: 100%;
     font-size: 15px;
     padding: 10px 0px;
+
     border-end-end-radius: 15px;
     background-color: #fff;
     border: 1px dotted rgb(191, 202, 206);
 
 }
+table {
+    margin: 10px 20px;
+}
 
-.table tr:first-child {
-    text-align: left;
+.table1 tr:first-child {
+   text-align: left;
+   
 }
 
 
