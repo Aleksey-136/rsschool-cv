@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital,wght@0,400;1,100&family=Roboto&display=swap');
 
 /* Стили текста общие */
+html {
+    scroll-behavior: smooth; 
+  }
+
 body { 
     font-family: raleway, Verdana;
     font-size: 16px;
@@ -53,7 +57,7 @@ h2 {
 
 
 /* Общий стиль блоков */
-.main {
+.maintext {
     padding: 5px;
     background-color: #fff;
     border: 1px dotted rgb(191, 202, 206);
@@ -79,15 +83,17 @@ h2 {
 
 
 /* Опыт работы */
-.table1 {
-    font-size: 15px;
-    border-end-end-radius: 15px;
-    padding: 10px 10px;
-}
-.table1 table {
+.table {
     width: 100%;
+    font-size: 15px;
+    padding: 10px 0px;
+    border-end-end-radius: 15px;
+    background-color: #fff;
+    border: 1px dotted rgb(191, 202, 206);
+
 }
-.table1 tr:first-child {
+
+.table tr:first-child {
     text-align: left;
 }
 

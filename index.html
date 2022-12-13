@@ -12,6 +12,7 @@
 <body>
     <div class="container">
 
+
 <!-- Аватарка ФИО и короткое описание -->
 <header class="header">
     <img src="ava.jpg" alt="Аватар" width="250"> 
@@ -19,68 +20,87 @@
             <h1>Aleksey Mikhailov</h1>
                 <p>RSSchool Student</p>
         </div> 
+        <nav class="nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#Summary" class="nav-link">About Me</a></li>
+              <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#Language" class="nav-link">Language</a></li>
+              <li class="nav-item"><a href="#Education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#Code" class="nav-link">Code Example</a></li>
+              <li class="nav-item"><a href="#Experience" class="nav-link">Experience</a></li>
+            </ul>
+          </nav>
 </header>
 
+
 <!-- Контакты -->
-<h2>Contacts</h2>
-    <main class="main">
+<main>
+<h2 id="Contacts">Contacts</h2>
+    <div class="maintext">
         <ul>
             <li>Phone: +7-950-867-62-70</li>
             <li>E-mail: fisher919@bk.ru</li>
             <li>GitHub: Aleksey-136</li>
         </ul>
-    </main>
+    </div>
+
 
 <!-- Обо мне -->
-<h2>About Me</h2>
-    <main class="main">
+<h2 id="Summary">About Me</h2>
+    <div class="maintext">
         <p class="text2">I have extensive experience in managerial and managerial work. I can organize the work of a small team. I like to achieve the set result on my own.
             I take an active life position. I like to learn something new.</p>
-    </main>
+    </div>
+
 
     <!-- Скилы -->
-<h2>Skills</h2>
-<main class="main">
+<h2 id="Skills">Skills</h2>
+<div class="maintext">
     <ul>
         <li>HTML 5</li>
         <li>CSS 3</li>
         <li>Adobe Photoshop, Premiere Pro</li>
     </ul>
-</main>
+</div>
+
 
 <!-- Язык -->
-<h2>Language</h2>
-<main class="main">
+<h2 id="Language">Language</h2>
+<div class="maintext">
     <ul>
         <li>Russian - Native</li>
         <li>English - Pre-intermediate</li>
     </ul>
-</main>
+</div>
+
 
 <!-- Образование -->
-<h2>Education</h2>
-<main class="main">
+<h2 id="Education">Education</h2>
+<div class="maintext">
     <ul>
         <li>Voronezh State Technical University</li>
         <li>HTML+CSS Vladilen Minin's course</li>
         <li>RS School JS / FRONT-END. STAGE 0 (right now)</li>
     </ul>
-</main>
+</div>
+
 
 <!-- Пример кода -->
-<h2>Code example</h2>
-<main class="main">
+<h2 id="Code">Code example</h2>
+<div class="maintext">
     <pre>
         <code class="jscode">
     let greeting = 'Starting to study';
     console.log(motto);
         </code>
     </pre>
-</main>
+</div>
+
 
 <!-- Таблица с опытом работы -->
-<h2>Experience</h2>
-<div class="main table1">
+<h2 id="Experience">Experience</h2>
+<div class="table">
 <table>
     <thead>
         <tr>
@@ -104,15 +124,18 @@
     </tbody>
 </table>
 </div>
+</main>
 
 <!-- Футер -->
-<div class="footer">
+<footer>
+<div class="footer" id="footer">
     <p>2022
         <a href="https://github.com/Aleksey-136"><img src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" width="70" alt="My Gihub"></a>
         &nbsp;
         <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" width="50" alt="RSSchool"></a>
     </p>
 </div>
+</footer>
 
 </div>
 </body>
